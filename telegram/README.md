@@ -1,40 +1,39 @@
-¿ªÊ¼ telegram api ·ÖÎö 
-  1. ÊÓÆµ´¦ÀíÄ£¿é£¬
-  2. gcm ·â×°¿ò¼Ü
-  3. ocm ÒÔ¼°Í¼Æ¬Ëã·¨
+å¼€å§‹ telegram api åˆ†æ 
+  1. è§†é¢‘å¤„ç†æ¨¡å—ï¼Œ
+  2. gcm å°è£…æ¡†æ¶
+  3. ocm ä»¥åŠå›¾ç‰‡ç®—æ³•
 
-  ÄÇ¾ÍÓä¿ìµÄ¿ªÊ¼°É£¡
+  é‚£å°±æ„‰å¿«çš„å¼€å§‹å§ï¼
 
-  ÕâÊÇ ÏîÄ¿´úÂë https://github.com/DrKLO/Telegram 
+  è¿™æ˜¯ é¡¹ç›®ä»£ç  https://github.com/DrKLO/Telegram 
  
-  git clone   git@github.com:DrKLO/Telegram.git ÏÂÔØµ½±¾µØ(ÓÖÌáÒ»´Î)
+  git clone   git@github.com:DrKLO/Telegram.git ä¸‹è½½åˆ°æœ¬åœ°(åˆæä¸€æ¬¡)
    
-  ÏÂÔØ´úÂëºó£¬´ó¼ÒĞèÒª´¦Àí¼¸¼şÊÂÇé 
-     1. telegram api ÉêÇë
-     2. gcm ÉêÇëÈ¨ÏŞ
-  ÕâÑùµÄ»°  ÄÇ¾ÍÈ¥¹ÙÍø¿ªÊ¼  https://my.telegram.org/apps È¥ÉêÇë°É£¬(×¢ ÑéÖ¤µÄ»°ÓĞµÄÊ±ºò ĞèÒªµç»°ÌáÊ¾ÑéÖ¤Âë£¬Ïëµ½Õâ¶ùÊÇ²»ÊÇÖªµÀÃÃ×ÓÀ´ÁË)
-  gcm ¿ØÖÆÌ¨ https://code.google.com/apis/console/ ÓĞ¹ØÔõÃ´×¢²áÒÔ¼°/²½Öè ÍÆ¼ö Google´ó·¨ºÃ 
+  ä¸‹è½½ä»£ç åï¼Œå¤§å®¶éœ€è¦å¤„ç†å‡ ä»¶äº‹æƒ… 
+     1. telegram api ç”³è¯·
+     2. gcm ç”³è¯·æƒé™
+  è¿™æ ·çš„è¯  é‚£å°±å»å®˜ç½‘å¼€å§‹  https://my.telegram.org/apps å»ç”³è¯·å§ï¼Œ(æ³¨ éªŒè¯çš„è¯æœ‰çš„æ—¶å€™ éœ€è¦ç”µè¯æç¤ºéªŒè¯ç ï¼Œæƒ³åˆ°è¿™å„¿æ˜¯ä¸æ˜¯çŸ¥é“å¦¹å­æ¥äº†)
+  gcm æ§åˆ¶å° https://code.google.com/apis/console/ æœ‰å…³æ€ä¹ˆæ³¨å†Œä»¥åŠ/æ­¥éª¤ æ¨è Googleå¤§æ³•å¥½ 
   
 	
-  È»ºó°Ñ gcm id °ó¶¨µ½ telegram ĞÂ½¨Ó¦ÓÃ¶ÔÓ¦µÄÑ¡ÏîÀï
+  ç„¶åæŠŠ gcm id ç»‘å®šåˆ° telegram æ–°å»ºåº”ç”¨å¯¹åº”çš„é€‰é¡¹é‡Œ
   
-  È»ºó ¾ÍÊÇĞŞ¸Ä¿Í»§¶Ë´úÂë , ĞèÒªĞŞ¸ÄÒ»ÏÂ¼¸¸öÎÄ¼ş 
-  org.telegram.messenger Ä¿Â¼ÏÂµÄ  BuildVars
+  ç„¶å å°±æ˜¯ä¿®æ”¹å®¢æˆ·ç«¯ä»£ç  , éœ€è¦ä¿®æ”¹ä¸€ä¸‹å‡ ä¸ªæ–‡ä»¶ 
+  org.telegram.messenger ç›®å½•ä¸‹çš„  BuildVars
  APP_ID	
  APP_HASH
  
 
-  GCM_SENDER_ID; gcm id£¬ Õâ¸öĞèÒª×¢ÒâÏÂ  ĞèÒªÌîĞ´ https://code.google.com/apis/console/b/0/?noredirect&pli=1#project:1002843392509:access
+  GCM_SENDER_ID; gcm idï¼Œ è¿™ä¸ªéœ€è¦æ³¨æ„ä¸‹  éœ€è¦å¡«å†™ https://code.google.com/apis/console/b/0/?noredirect&pli=1#project:1002843392509:access
 
-  ´ó¼Ò×¢Òâ¿ØÖÆÌ¨ µ±Ç°Õâ¸öÈÏÖ¤  1002843392509 ¾ÍÖ»Õâ¸öÁË£¡ Google ¾ÍÊÇÕâÃ´¿Æ¼¼·¶,
+  å¤§å®¶æ³¨æ„æ§åˆ¶å° å½“å‰è¿™ä¸ªè®¤è¯  1002843392509 å°±åªè¿™ä¸ªäº†ï¼ Google å°±æ˜¯è¿™ä¹ˆç§‘æŠ€èŒƒ,
 
-  ½Ó×Å ´ó¼Ò¿ÉÒÔ ×Ô¶¨Òå¶àÓïÑÔ°æ±¾ÁË£¬»òÕßÊÇ¼ÓÉÏ²Êµ°£¡
+  æ¥ç€ å¤§å®¶å¯ä»¥ è‡ªå®šä¹‰å¤šè¯­è¨€ç‰ˆæœ¬äº†ï¼Œæˆ–è€…æ˜¯åŠ ä¸Šå½©è›‹ï¼
 
-  PS:¶àÓïÑÔµÄ»° ĞèÒª×Ô¼ºÔÚ ¹¤³ÌÈ«¾ÖÅäÖÃÀïÃæÉèÖÃ£¡
+  PS:å¤šè¯­è¨€çš„è¯ éœ€è¦è‡ªå·±åœ¨ å·¥ç¨‹å…¨å±€é…ç½®é‡Œé¢è®¾ç½®ï¼
 
  ![Alt Text](https://github.com/yiShanXin/Android-code-blog/blob/master/images/androidify-1433146080052.png)
- ![image](https://github.com/yiShanXin/Android-code-blog/blob/master/images/androidify-1433146080052.png)
- ![](https://github.com/yiShanXin/Android-code-blog/blob/master/images/androidify-1433146080052.png)
+
 
 
 
