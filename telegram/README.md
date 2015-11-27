@@ -32,7 +32,7 @@
 
   PS:多语言的话 需要自己在 工程全局配置里面设置！
 
- ![Alt Text](https://github.com/yiShanXin/Android-code-blog/blob/master/images/androidify-1433146080052.png)
+ 
 
 
 
