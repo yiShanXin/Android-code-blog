@@ -12,7 +12,7 @@
   下载代码后，大家需要处理几件事情 
      1. telegram api 申请
      2. gcm 申请权限
-  这样的话  那就去官网开始  https://my.telegram.org/apps 去申请吧，(注 验证的话有的时候 需要电话提示验证码，想到这儿是不是知道妹子来了)
+  这样的话  那就去官网开始  https://my.telegram.org/apps 去申请吧，(注 验证的话有的时候 需要电话提示验证码，想到这儿是不是知道妹子愉快的沟通了)
   gcm 控制台 https://code.google.com/apis/console/ 有关怎么注册以及/步骤 推荐 Google大法好 
   
 	
@@ -26,7 +26,7 @@
 
   GCM_SENDER_ID; gcm id， 这个需要注意下  需要填写 https://code.google.com/apis/console/b/0/?noredirect&pli=1#project:1002843392509:access
 
-  大家注意控制台 当前这个认证  1002843392509 就只这个了！ Google 就是这么科技范,
+  大家注意控制台 当前这个认证  1002843392509 就是这个了！ Google 就是这么科技范,
 
   接着 大家可以 自定义多语言版本了，或者是加上彩蛋！
 
